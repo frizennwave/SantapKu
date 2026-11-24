@@ -284,7 +284,7 @@ flowchart LR
    git status                      # pastikan TIDAK ada .env, vendor/, node_modules/
    git commit -m "chore: initial Laravel project"
    git branch -M main
-   git remote add origin https://github.com/<username>/SantapKu.git
+   git remote add origin https://github.com/frizennwave/SantapKu.git
    git push -u origin main
    ```
 
@@ -302,7 +302,7 @@ flowchart LR
 **Anggota B:**
 
 ```bash
-git clone https://github.com/<username>/SantapKu.git
+git clone https://github.com/frizennwave/SantapKu.git
 cd SantapKu
 git config user.name  "Nama Anda"
 git config user.email "email-yang-sama-dengan-github@contoh.com"
